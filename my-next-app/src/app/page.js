@@ -1,12 +1,17 @@
 import Image from "next/image";
-import Link from "next/link";
-export default function Home() {
+import Header from "./components/Header/page";
 
+export default function Home() {
   return (
-<div>
-<h2>Next JS!!!!</h2>
-<Image src="/random.jpg" alt="vercel img" width={500} height={300}></Image>
-</div>
-  
+    <div>
+      <h2 className="text-5xl text-center font-bold">Next JS!!!!</h2>
+      <Header />
+      <Image
+        src="/random.jpg"
+        alt="vercel img"
+        width={300}
+        height={300}
+      ></Image>
+    </div>
   );
 }

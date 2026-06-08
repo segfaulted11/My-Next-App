@@ -12,7 +12,7 @@ const DashboardLayout = ({children}) => {
   </div>
   <div className="drawer-side">
     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
-    <ul className="menu bg-blue-200 min-h-full w-80 p-4">
+    <ul className="menu bg-red-500 min-h-full w-80 p-4">
       {children}
       {/*  */}
       <li><Link href={`/dashboard/profile`}>Profile</Link></li>
