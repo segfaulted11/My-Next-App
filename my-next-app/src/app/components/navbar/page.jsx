@@ -10,10 +10,10 @@ const Navbar = () => {
       const links =( <>
       <li><Link href={`/about`} className={pathName ==='/about'?'text-blue-400':''}>About</Link></li>
       <li><Link href={`/contact`}>Contact</Link></li>
-      <li><Link href={`/about/designers`} className={pathName ==='/about/designers'?'text-blue-400':''}>Designers</Link></li>
       <li><Link href={`/about/developers`} className={pathName ==='/about/developers'?'text-blue-400':''}>Developers</Link></li>
       <li><Link href={`/blogs`} className={pathName ==='/blogs'?'text-blue-400':''}>Blogs</Link></li>
       <li><Link href={`/dashboard`} className={pathName ==='/dashboard'?'text-blue-400':''}>DashBoard</Link></li>
+      <li><Link href={`/foods`} className={pathName ==='/foods'?'text-blue-400':''}>Foods</Link></li>
   </>)
     return (
 <div className="navbar bg-base-100 shadow-sm">

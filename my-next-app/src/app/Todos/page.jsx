@@ -8,9 +8,12 @@ const Todos = async() => {
 
     console.log(todos)//array of objects
 
+    //loading data and showing the data in the same place
     return (
         <div>
-            
+                        posts: {
+                todos.length
+            }
         </div>
     );
 };
